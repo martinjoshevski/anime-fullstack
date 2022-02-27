@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-page-custom-font */
 import Head from "next/head";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavigationBar from "../components/Navbar/NavigationBar";
@@ -12,7 +11,7 @@ export default function Home() {
         body {
           margin: 0px;
           padding: 0px;
-          font-family: "Bungee Inline", cursive;
+          font-family: "", cursive;
           background-color: #000;
         }
       `}</style>
@@ -21,11 +20,7 @@ export default function Home() {
         <meta name="description" content="Books Library" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap"
-          rel="stylesheet"
-        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
       </Head>
       <NavigationBar />
       <Banner />
