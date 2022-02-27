@@ -13,6 +13,7 @@ export default function Home() {
           margin: 0px;
           padding: 0px;
           font-family: "Bungee Inline", cursive;
+          background-color: #000;
         }
       `}</style>
       <Head>
