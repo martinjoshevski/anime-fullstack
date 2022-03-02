@@ -37,7 +37,6 @@ const AnimeAPI = () => {
   useEffect(() => {
     fetchData();
   }, []);
-
   return (
     <div>
       {users.length > 0 && (

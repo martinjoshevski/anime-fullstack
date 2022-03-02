@@ -16,7 +16,7 @@ export default function Home() {
         }
       `}</style>
       <Head>
-        <title>Books Library v1</title>
+        <title>Welcome to AnimeWorld</title>
         <meta name="description" content="Books Library" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
