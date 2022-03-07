@@ -4,6 +4,7 @@ import NavigationBar from "../components/Navbar/NavigationBar";
 import Banner from "../components/Banner/Banner";
 import AnimeAPI from "../components/AnimeAPI/AnimeAPI";
 import { Container } from "reactstrap";
+import Footer from "../components/Footer/Footer";
 export default function Home() {
   return (
     <div>
@@ -26,6 +27,7 @@ export default function Home() {
       <Banner />
       <Container className="pt-4">
         <AnimeAPI />
+        <Footer />
       </Container>
     </div>
   );
