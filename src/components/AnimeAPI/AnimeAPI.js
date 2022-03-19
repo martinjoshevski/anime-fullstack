@@ -56,7 +56,7 @@ const AnimeAPI = () => {
                       />
                       <CardBody
                         style={{
-                          height: "100px",
+                          height: "101px",
                           position: "relative",
                           textAlign: "center",
                         }}
