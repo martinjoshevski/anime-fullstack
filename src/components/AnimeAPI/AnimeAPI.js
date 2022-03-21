@@ -50,8 +50,8 @@ const AnimeAPI = () => {
                       <Image
                         alt="Card image cap"
                         src={user.img}
-                        width="400px"
-                        height="400px"
+                        width="444px"
+                        height="444px"
                         objectFit="contain"
                       />
                       <CardBody
